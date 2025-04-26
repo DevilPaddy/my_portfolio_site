@@ -31,8 +31,7 @@ I decided to use this idea and recreate that minimal and clean feel for my portf
 
 Feel free to reach out!
 
-- Email: [your-email@example.com](mailto:your-email@example.com)
-- GitHub: [YourGitHubUsername](https://github.com/YourGitHubUsername)
+- Email: [belsareanuj2004@yahoo.com]
 
 ---
 
