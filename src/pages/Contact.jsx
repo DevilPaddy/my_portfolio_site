@@ -17,7 +17,7 @@ const Contact = () => {
         <p className='mb-3'>
           <span className="font-semibold">Email:</span>{' '}
           <a 
-            href="https://mail.google.com/mail/?view=cm&fs=1&to=belsareanuj2004@yahoo.com" 
+            href="mailto:belsareanuj2004@yahoo.com" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-blue-400 underline"
