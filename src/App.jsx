@@ -24,13 +24,14 @@ const App = () => {
   }, []);
 
   useEffect(() => {
+
     if (isDesktop && isHomeRoute) {
       navigate('/about', { replace: true });
     }
   }, [isDesktop, isHomeRoute, navigate]);
 
   return (
-    <div className="bg-black min-h-screen">
+    <div className="bg-black min-h-screen ">
       <NavBar />
 
       {/* Different layout for mobile and desktop */}
@@ -41,7 +42,7 @@ const App = () => {
             <Notes />
           </div>
 
-          <div className="flex-grow">
+          <div className="flex-grow border-l-[1px] border-l-[#303030] pl-3">
             <Routes>
               <Route path="/" element={<About />} />
               <Route path="/about" element={<About />} />

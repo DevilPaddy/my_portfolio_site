@@ -20,8 +20,16 @@ const AboutIdea = () => {
         I decided to replicate the look of a notes app to make my portfolio stand out.
         </p>
 
-        <h6 className='text-white sm:text-2xl md:text-3xl mt-8 mb-2.5'>🙏 Thank You </h6>
-        <p className='text-[#c6c6c6] text-sm sm:text-base md:text-[17px]  text-balance'>Thanks for visiting and checking out my work! I appreciate your time.</p>
+        <div className="skills mb-12">
+        <h6 className='mt-6 text-lg font-medium text-[#ffff]'>⚙️ Tech Stack:</h6>
+        <div className="skills_para">
+          <p className='text-[#c6c6c6] text-sm sm:text-base'>-Frontend: React, Tailwind css</p>
+          <p className='text-[#c6c6c6] text-sm sm:text-base'>-Database: Firebase </p>
+        </div>
+      </div>
+
+        <h6 className='text-white sm:text-2xl md:text-3xl mt-28 mb-2.5'>🙏 Thank You </h6>
+        <p className='text-[#c6c6c6] text-sm sm:text-base md:text-[17px] text-balance'>Thanks for visiting and checking out my work! I appreciate your time.</p>
 
 
     </div>

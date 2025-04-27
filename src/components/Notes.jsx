@@ -34,14 +34,14 @@ const Notes = () => {
 
   if (loading) {
     return (
-      <div className="flex items-center justify-center sm:ml-[2px] md:ml-[2rem] mr-[2rem] p-2 h-screen w-full border-r-[1px] border-r-[#303030] md:w-[408px]">
+      <div className="flex items-center justify-center sm:ml-[2px] md:ml-[2rem] mr-[2rem] p-2 h-screen w-full md:w-[408px]">
         <MoonLoader   color="#e3e3e3" />
       </div>
     );
   }
 
   return (
-    <div className='sm:ml-[2px] md:ml-[2rem] mr-[2rem] p-2 h-screen w-full border-r-[1px] border-r-[#303030] md:w-[408px]'>
+    <div className='sm:ml-[2px] md:ml-[2rem] mr-[2rem] p-2 h-screen w-full md:w-[408px]'>
       {/* 📌 Pin Section */}
       <div className='mb-8'>
         <h6 className='mb-3 text-xl text-white'>📌 Pin</h6>
@@ -77,7 +77,7 @@ const Notes = () => {
       </div>
 
       {/* About this portfolio idea */}
-      <div className='mb-8 mt-8'>
+      <div className='mb-2 mt-8'>
         <h6 className='mb-3 text-xl text-white'>🤔 Concept & Creation</h6>
         <Link
           to="/about-idea"
