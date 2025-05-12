@@ -27,7 +27,7 @@ const About = () => {
       <div className="mt-6 flex flex-col sm:flex-row sm:flex-wrap sm:p-4 gap-4">
         {/* Download CV Button */}
         <a
-          href="/path-to-cv.pdf"
+          href="/anuj_cv.pdf"
           download
           className="flex items-center justify-center border-2 border-[#c6c6c6] rounded-full py-3 px-4 w-full sm:w-[200px] text-sm font-medium text-[#c6c6c6] hover:bg-[#c6c6c6] hover:text-[#1d1d1d] transition duration-500 ease-in-out gap-2"
         >
