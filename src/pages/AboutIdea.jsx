@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutIdea = () => {
   return (
-    <div className="p-4 h-screen">
+    <div className="p-4 h-screen mb-30">
         <div className='flex justify-between items-center'>
         <h1 className='text-white text-xl sm:text-2xl md:text-3xl mb-6'>💡 About the idea</h1>
         <a 
