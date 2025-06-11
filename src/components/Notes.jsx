@@ -47,7 +47,7 @@ const Notes = () => {
         <h6 className='mb-3 text-xl text-white'>📌 Pin</h6>
         <Link
           to="/about"
-          className='bg-[#262626] p-4 rounded-xl h-[94px] w-full block overflow-hidden'>
+          className='bg-[#262626] p-4 rounded-xl h-[94px] w-full block overflow-hidden hover:bg-[#383838] transition duration-200 hover:scale-[1.02]'>
           <h2 className='text-lg md:text-xl text-white mb-0.5'>👋 About Me;</h2>
           <p className='text-sm md:text-[14px] text-[#989898]'>
             Hi, I’m Anuj Belsare, an Electronics and Computer...
@@ -62,7 +62,7 @@ const Notes = () => {
           <div key={project.docId} className='relative mb-2'>
             <Link
               to={`/projects/${project.docId}`}
-              className='block py-3 px-4 rounded-xl h-[94px] w-full overflow-hidden'>
+              className='block py-3 px-4 rounded-xl h-[94px] w-full overflow-hidden hover:bg-[#383838] transition duration-200 hover:scale-[1.02]'>
               <h2 className='text-lg md:text-xl text-white truncate mb-0.5'>{project.projectName}</h2>
               <p className='text-sm md:text-[14px] text-[#989898] truncate'>
                 {project.description}
@@ -81,7 +81,7 @@ const Notes = () => {
         <h6 className='mb-3 text-xl text-white'>🤔 Concept & Creation</h6>
         <Link
           to="/about-idea"
-          className='bg-[#262626] p-4 rounded-xl h-[94px] w-full block overflow-hidden'>
+          className='bg-[#262626] p-4 rounded-xl h-[94px] w-full block overflow-hidden hover:bg-[#383838] transition duration-200 hover:scale-[1.02]'>
           <h2 className='text-lg md:text-xl text-white mb-0.5'>🖊️ About this web idea;</h2>
           <p className='text-sm md:text-[14px] text-[#989898]'>
           The design of this portfolio is inspired by...
