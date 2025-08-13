@@ -64,7 +64,7 @@ const About = () => {
         <div className="ml-6 edu_graduation mb-1.5">
           <p className='text-[#c6c6c6] text-sm sm:text-base'>B.Tech in Electronics and Computer Engineering</p>
           <p className='text-[#929292] text-xs sm:text-base'>MIT CNS, Chh.Sambhajinagar</p>
-          <p className='text-[#929292] text-[8px] sm:text-base'>2022 – Present</p>
+          <p className='text-[#929292] text-xs sm:text-base'>2022 – Present</p>
         </div>
         <div className="ml-6 edu_12 mb-1.5">
           <p className='text-[#c6c6c6] text-sm sm:text-base'>Higher Secondary (12th Grade)</p>

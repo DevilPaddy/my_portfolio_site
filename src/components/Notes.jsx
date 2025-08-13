@@ -77,7 +77,7 @@ const Notes = () => {
       </div>
 
       {/* About this portfolio idea */}
-      <div className='mb-2 mt-8'>
+      <div className='mb-12 mt-8'>
         <h6 className='mb-3 text-xl text-white'>🤔 Concept & Creation</h6>
         <Link
           to="/about-idea"
